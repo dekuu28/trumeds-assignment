@@ -11,12 +11,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/main" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -29,7 +30,7 @@
   <component name="ProjectId" id="1ucrR4DNTc2xPp26jRvUXEd77T0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trumeds-assignment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -44,9 +45,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TruemedsAssignmentApplication">
-    <configuration name="MainLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.service.MainLogic" />
+  <component name="RunManager" selected="JUnit.com.truemeds.assignment in assignment">
+    <configuration name="CountIterationsLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.service.CountIterationsLogic" />
       <module name="assignment" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruemedsAssignmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.TruemedsAssignmentApplication" />
+    <configuration name="TrueMedsAssignmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.TrueMedsAssignmentApplication" />
       <module name="assignment" />
       <extension name="coverage">
         <pattern>
@@ -71,10 +72,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountIterationsLogicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.truemeds.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.truemeds.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.service.CountIterationsLogicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountIterationsLogicTest.mainLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.truemeds.assignment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.truemeds.assignment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.service.CountIterationsLogicTest" />
+      <option name="METHOD_NAME" value="mainLogic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrueMedsAssignmentApplicationTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.truemeds.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.truemeds.assignment" />
+      <option name="MAIN_CLASS_NAME" value="com.truemeds.assignment.TrueMedsAssignmentApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.truemeds.assignment in assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.truemeds.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.truemeds.assignment" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TruemedsAssignmentApplication" />
-        <item itemvalue="Application.MainLogic" />
+        <item itemvalue="JUnit.com.truemeds.assignment in assignment" />
+        <item itemvalue="JUnit.CountIterationsLogicTest" />
+        <item itemvalue="Application.TrueMedsAssignmentApplication" />
+        <item itemvalue="JUnit.CountIterationsLogicTest.mainLogic" />
+        <item itemvalue="Application.CountIterationsLogic" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +160,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -106,9 +172,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/truemeds/assignment/service/MainLogic.java</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/truemeds/assignment/service/CountIterationsLogic.java</url>
+          <line>34</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/truemeds/assignment/service/AssignmentService.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/truemeds/assignment/service/AssignmentService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
